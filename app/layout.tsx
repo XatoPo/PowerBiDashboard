@@ -39,6 +39,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" suppressHydrationWarning>
+      <head>
+        {/* Aseguramos que Three.js se cargue correctamente */}
+        <script async src="https://unpkg.com/three@0.157.0/build/three.min.js"></script>
+        {/* Aseguramos que canvas-confetti se cargue correctamente */}
+        <script async src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+      </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           {children}
