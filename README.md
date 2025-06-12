@@ -27,7 +27,7 @@ Bienvenido a **PowerBiDashboard**, una plataforma web visual e interactiva para 
 
 1. **Clona el repositorio:**
     ```bash
-    git clone https://github.com/TU_USUARIO/PowerBiDashboard.git
+    git clone https://github.com/XatoPo/PowerBiDashboard.git
     cd PowerBiDashboard
     ```
 
